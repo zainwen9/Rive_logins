@@ -1,0 +1,27 @@
+name: rive_teddy_bear
+description: A project to demostrate about the rive annimations in Flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  rive: ^0.13.14
+
+dev_dependencies:
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
